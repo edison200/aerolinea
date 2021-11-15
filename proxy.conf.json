@@ -1,0 +1,11 @@
+{
+    "/personas":{
+        "target":"http://servicios.thesmartfrank.es",
+        "secure": true,
+    "pathRewrite": {
+    "^/personas": ""
+  },
+    "changeOrigin": true
+  }
+     
+}
